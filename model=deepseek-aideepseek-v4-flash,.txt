@@ -1,0 +1,17 @@
+ model="deepseek-ai/deepseek-v4-flash",
+ base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+
+  model="deepseek-ai/deepseek-v4-pro",
+ base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+
+ model="openai/gpt-oss-120b",
+ base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+
+  model="openai/gpt-oss-20b",
+ base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+
+NVIDIA_GLM_5_2_API_KEY=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

@@ -1,0 +1,9 @@
+==================================================
+STARTING INSTITUTIONAL REAL-TIME WEB DASHBOARD
+Active Symbols: ['XAUUSD', 'EURUSD']
+==================================================
+Access the dashboard at: http://localhost:5000
+Press Ctrl+C to stop the server.
+
+ * Serving Flask app 'monitor_server'
+ * Debug mode: off

@@ -1,0 +1,564 @@
+Here is the English translation of the trading notes:
+
+## Live Gold Update: The trap set by the whales before Friday's massive storm!
+
+Today is Wednesday. If you are trading Gold (XAUUSD), the next two days of this week won't be easy. Exactly this Friday (June 05), the forex market's biggest earthquake—the NFP (Non-Farm Payrolls) employment data—will be released!
+
+If you look at the Gold chart right now, you'll see the market is moving slowly, stuck inside a single range without any major movements. This is no accident. This is called "Pre-NFP Consolidation."
+
+🧠 **The Whales' Plan (The Trap):**
+Many retail traders get trapped trying to trade Support/Resistance within this small range. However, the whales aren't taking any large trades right now. What they are doing before Friday's NFP news is creating small wicks up and down to collect the liquidity (Stop Losses) of everyday retail traders.
+
+🎯 **Our SMC Action Plan:**
+
+* **Don't panic:** Never enter with large lot sizes today or tomorrow while the market is stuck in the middle of this range.
+* **Mark your Zones:** Take your 1H or 4H chart and mark the largest, untapped Order Blocks and FVGs that sit far above and below this consolidation range.
+* **The Sniper Entry:** Do not enter the exact second the Friday NFP news drops. As soon as the news hits, whales will inevitably create a massive wick to one side to sweep retail stop losses. Right after that sweep occurs and the price taps into our Order Block, take your entry without fear!
+
+Let's see what happens!!!!
+Don't be fooled by the calm before the storm. Be patient until Friday and take your trade alongside the whales! 🔥
+
+---
+
+## Special Announcement: The answer to the biggest question many had about the VIX index!
+
+*"In Post 28, you said not to go Long if the VIX is high. But in Post 30, you say the best Buy entry comes when the VIX skyrockets. Isn't this contradictory?"* 🤔
+
+**The Answer:** Yes, both are correct depending on how you are trading the market (Spot vs. Futures)! Here is why it gets confusing:
+
+⚔️ **Scenario 1: For Day Trading / Futures (The Post 28 context)**
+If you are taking leverage on Binance and day trading/scalping, **never** go Long (Buy) when the VIX spikes to the sky!
+
+* **Reason:** A sky-high VIX means the market is experiencing massive turbulence (High Volatility). During this time, Bitcoin will form crazy, massive wicks up and down. If you buy, the market will likely form a brutal wick that hits your stop loss or liquidates your account before it actually goes up.
+
+🛡️ **Scenario 2: For Spot Buying / Swing Trading (The Post 30 context)**
+If you are accumulating coins in the Spot market or taking a swing trade to hold for weeks, the VIX skyrocketing is globally recognized as the best "Bottom Signal"!
+
+* **Reason:** (e.g., the August 5th crash). When the whole world was running away in fear, the VIX shot above 60. That indicates "Extreme Fear." A spot buyer doesn't have to worry about hitting a stop loss. Therefore, this is the exact moment whales buy up all the coins that panicked retail traders are selling at a massive discount.
+
+👑 **The Sentiment Trader's Golden Rule (How to balance both):**
+Never jump into the market *while* the VIX is shooting up (it’s like catching a falling knife). Here is how you perfectly catch the market bottom:
+
+1. Let the VIX spike to the sky (wait for maximum fear).
+2. Watch for the point where that VIX candle peaks and starts to turn back down (Reversal). That is when fear subsides and the market stabilizes.
+3. The exact moment the VIX reverses downward, confidently take your entry from the SMC Order Block on your chart!
+
+---
+
+## The Sentimental Master: The end of a month-long journey and the 5 Golden Rules!
+
+🧠 **Sentimental Analysis Masterclass - Post 30**
+
+We started this series by discussing why 90% of people lose in the market. Today, you know how large banks and whales (Smart Money) play with the emotions of ordinary people to snatch their money.
+Now you can measure global fear using the VIX, track money flow using USDT Dominance, catch hidden transactions in Dark Pools, and determine targets using Liquidations.
+
+As a "Sentiment Master," here are the final 5 Golden Rules you must follow moving forward:
+
+🏆 **Rule 1: When the chart and sentiment clash, sentiment wins!**
+No matter how beautiful the trade setup on your SMC chart is, if the sentiment data (Long/Short, PCR, News) contradicts it, never take that trade. Determine the direction using sentiment; find the entry using the chart.
+
+🏆 **Rule 2: Rejoice when the world cries, fear when the world laughs!**
+When news says "Bitcoin is Dead," when the VIX skyrockets, when people run in fear... that is your 100% guaranteed Buy Entry. When everyone is greedy, quietly take your profits and exit the market.
+
+🏆 **Rule 3: News is a trap set to hunt your Stop Loss!**
+When the market is at all-time highs and incredibly "positive" news drops, it is a trap by whales trying to dump their Bitcoin onto retail buyers. Do not trust the news; trust AI and Data.
+
+🏆 **Rule 4: Wait for the whales to hunt!**
+Patiently wait until whales sweep the Liquidity (Stop Losses) sitting near Support/Resistance. The moment those innocent traders' accounts are wiped out, jump into the market alongside the whales.
+
+🏆 **Rule 5: Keep updating yourself!**
+The market changes every day. The tool that works today might change tomorrow. Therefore, never stop learning.
+
+🚀 **Final Note:**
+Apply what you've learned to your TradingView charts and start using it practically today. You will undoubtedly see a difference in your Win Rate. Victory to you!
+
+---
+
+## Case Study: The "Perfect Trade" executed using Sentiment during the August 2024 Crash!
+
+🧠 **Sentimental Analysis Masterclass - Post 29**
+
+Recently, we've discussed how to read invisible data beyond the charts and created a Checklist. Today, instead of just talking, let's see how these 3 filters were used during a real, world-shaking recent event! You can backtest this data on your charts today.
+
+📉 **The Background (August 5, 2024 - Black Monday):**
+Due to interest rate changes in Japan, global markets suddenly crashed. Bitcoin (BTC) plummeted to $49,000 in a single day. News everywhere declared "Crypto is finished, heading to 40,000." Ordinary retail traders fled in panic.
+
+Here is how a Smart Trader's Checklist worked during this time:
+
+✅ **Filter 1: Macro Sentiment (Global Mood)**
+
+* *Action:* We checked the VIX (Fear Meter) on TradingView.
+* *Observation:* The VIX suddenly spiked to a massive 65! (The highest fear level since COVID). However, within that same day, the VIX candle began to reverse downward (fear was subsiding).
+* *Decision:* While the whole world is bleeding in fear, whales are buying the bottom ("Buy the fear"). Today, I am only looking for Buy (Long) setups.
+
+✅ **Filter 2: Retail Trap**
+
+* *Action:* We checked the Long/Short Ratio on Coinglass.
+* *Observation:* As soon as Bitcoin dropped to 49,000, panicked retail traders assumed "it's going lower" and started opening massive Sell (Short) positions.
+* *Decision:* 90% of retail traders always lose. If they are aggressively shorting in fear, I must go Long!
+
+✅ **Filter 3: The Liquidity Target**
+
+* *Action:* We checked the Coinglass Liquidation Heatmap.
+* *Observation:* The Stop Losses (Liquidations) of the millions who shorted on August 5th were heavily clustered at the $60,000 - $62,000 level!
+* *Decision:* Whales will definitely pull the market back to 60K+ to wipe out those shorters' money. My Take Profit (TP) is $61,000!
+
+🎯 **The Sniper Entry (SMC Execution):**
+Now we have the entire market sentiment in our hands. We move to the TradingView Bitcoin chart.
+
+* Looking at the Daily chart, exactly around the $49,000 - $50,000 zone, there was a beautiful, untested High Time Frame (HTF) Order Block (OB).
+* **The Result:** While retail traders were crying and selling, the Long Entry taken from that $49,000 zone (backed by the VIX and Heatmap) worked perfectly. Within exactly 4 days, Bitcoin rocketed up to $62,000, wiping out all those retail Stop Losses!
+
+When you combine the Precision of SMC with the Direction of Sentiment, nobody in the market can beat you.
+
+---
+
+## The Sentiment Dashboard: The secret setup to scan the market in 5 minutes every morning!
+
+🧠 **Sentimental Analysis Masterclass - Post 28**
+
+We’ve learned about many tools (VIX, USDT.D, Put/Call Ratio, Liquidations, AI News). But if you have to visit 10 different sites and check them one by one before taking a trade, it gets exhausting, right?
+Smart whales never do that. They have a "Dashboard" on their screen to see everything at a glance. Today, let's build that epic setup on your laptop.
+
+🖥️ **Create a "Daily Sentiment" Folder in your Browser:**
+Create a new folder in your Chrome Bookmarks Bar and name it "1. Daily Sentiment". Now save these 4 links in it:
+
+* **Link 01: The Fear Meter (Macro View)** - TradingView charts for VIX and USDT.D. (To see if the global economy is crashing).
+* **Link 02: The Retail Trap (Retail Sentiment)** - Coinglass Long/Short Ratio. (To see which direction ordinary people are betting their money).
+* **Link 03: The Whale Hunt (Liquidations)** - Coinglass Liquidation Heatmap. (To spot whose accounts the whales are targeting to wipe out today).
+* **Link 04: The News Filter (AI News)** - LunarCrush or FinancialJuice. (To check if there’s market-moving news right now).
+
+⏱️ **The 5-Minute Morning Routine:**
+Now, when you wake up, you don't open a blank chart first!
+Right-click on your Bookmarks Folder and select "Open All" (all 4 tabs open at once).
+1️⃣ **Minute 1:** Check if the VIX has skyrocketed (If yes, no Longs today).
+2️⃣ **Minute 2:** If the majority of retail is Long, mentally prepare to Short.
+3️⃣ **Minute 3:** Mark the closest large Liquidation level on the Heatmap. (That is your target!).
+
+💡 **Pro Tip (TradingView Secret):**
+Go to your TradingView Layouts and create a 4-grid screen. Add BTC, VIX, USDT.D, and DXY (Dollar Index) to these 4 charts and save it as "Macro Dashboard." Looking at all 4 on one screen before clicking trade will make the market's next move look like magic!
+
+---
+
+## The Sentimental Checklist: The 3 filters you MUST check before taking a trade!
+
+🧠 **Sentimental Analysis Masterclass - Post 27**
+
+We know how to read hidden market data (Sentiment Data). But how do we actually use them right before taking a trade?
+Smart traders don't just click Buy/Sell whenever they feel like it. They have a strict "Checklist." Here is the Sentimental Checklist you MUST look at if you trade SMC/ICT!
+
+✅ **Filter 1: Macro Sentiment (What is the global mood?)**
+
+* **What to look at:** VIX (Fear Meter) and USDT.D.
+* **Check:** Has the VIX skyrocketed, meaning people are fearful? Has USDT.D gone up, meaning people are hiding their money?
+* **Decision:** If people are in fear, whales are quietly trying to Buy. Therefore, today I am only looking for Buy (Long) trades.
+
+✅ **Filter 2: Retail Trap (Where are ordinary people trapped?)**
+
+* **What to look at:** Binance Long/Short Ratio and PCR (Put/Call Ratio).
+* **Check:** Are the majority of global retail traders Buying or Selling right now?
+* **Decision:** Since 90% lose, we go against them. If the Long/Short ratio is above 2.5, everyone is buying. Therefore, today I am strictly looking for a Sell (Short) trade!
+
+✅ **Filter 3: The Liquidity Target (Where is the whale's hunt?)**
+
+* **What to look at:** Coinglass Liquidation Heatmap.
+* **Check:** At what price are the most retail Stop Losses / Liquidation points clustered?
+* **Decision:** That level is my trade's Take Profit (TP)! Whales will definitely drag the market there.
+
+🎯 **Final Step (The Execution):**
+Now sentiment tells you the market is going "Down" and the target is "1.0500."
+*Now* you go to your TradingView chart! Find a beautiful SMC Order Block or FVG that aligns with that downward journey and take your entry from there.
+If a trade doesn't pass these 3 filters, never touch it!
+
+---
+
+## AI News Sentiment: Scan the truth or lies of news in seconds using AI!
+
+🧠 **Sentimental Analysis Masterclass - Post 26**
+
+Yesterday we talked about how to avoid being tricked by the chart. Today we talk about an even deadlier trap: "News." Many global traders run to trade based on what they see on CNBC, Bloomberg, or Twitter.
+
+🪤 **The Media Trap (Whales' News Trap):**
+If big banks and whales want to, they can pump billions into the market and create "fake euphoria" through the media.
+
+* *Example:* When the market is at an all-time high, news spreads globally that "Bitcoin will cross 100K." Ordinary retail traders see this and happily Buy.
+* *The Reality:* Whales planted that news so that while retail buys, the whales can dump their massive Bitcoin holdings onto them, take profits, and exit! (In trading, this is called "Buy the rumor, Sell the news").
+
+🤯 **How do we catch this lie using AI?**
+To avoid falling for these news traps, there are AI tools now that read millions of global news articles and social media posts in seconds to scan their true impact on the market. This is called AI Sentiment Analysis.
+
+🛠️ **Free AI Tools You Can Use:**
+
+* **LunarCrush (Specifically for Crypto):** An amazing tool! Their AI scans all of Twitter, Reddit, and News, assigning a "Galaxy Score" and "AltRank" to every coin. This helps filter out fake hype and identifies coins genuinely preparing to pump.
+* **FinancialJuice (For Forex / Stocks):** Whenever major global news hits, this site scans it live to show whether it is truly "Positive" or "Negative" for the market.
+* **TradingView News Sentiment:** Now, when you click the News icon on the right side of TradingView, the AI displays a green/red meter next to each news headline showing its actual impact on the market.
+
+💡 **Pro Tip (News + SMC):**
+Imagine you have a beautiful SMC Resistance (Supply Zone) on your chart. Exactly as the market approaches it, incredible "positive" world-shaking news drops. The AI Sentiment meter is also 100% Bullish (Green).
+**Never buy with the herd in that moment!** That exact moment, when the whole world is euphoric, is the absolute best time to take a Sell (Short) entry from your Supply Zone—it rarely fails. Whales use the news to hunt our Stop Losses!
+
+---
+
+## Sentiment Divergence: Catching the truth with sentiment when the chart lies!
+
+🧠 **Sentimental Analysis Masterclass - Post 25**
+
+If you use Technical Analysis, you've probably heard of RSI or MACD Divergence (when price goes up but the indicator goes down). But today, we are talking about a divergence a thousand times more powerful—an invisible divergence that big whales use to trap retail traders.
+It's called "Sentiment Divergence."
+
+🤔 **What is Sentiment Divergence?**
+This happens when what you see on your chart (Price Action) and the sentiment data you've learned (Long/Short Ratio, Funding Rates, PCR, Dark Pools) move in opposite directions.
+
+🪤 **How the trap is set (The Bull Trap):**
+Imagine Bitcoin breaks through a beautiful "Resistance" and goes up (Breakout). Big green candles form.
+
+* **What the chart says:** Ordinary retail traders think, "The bull run has started!" and open large Buy (Long) positions.
+* **What sentiment says:** When you check Coinglass, Funding Rates are highly Positive! Furthermore, big Whales are moving massive amounts of Bitcoin into the Exchanges (Inflows).
+* **What does this mean?** Even though the chart went up, the real money (Smart Money) isn't backing it. Whales simply painted a pretty chart to lure retail in, so they can dump their Bitcoin bags onto ordinary people (Distribution)! The very next second, the market will crash massively. (This is also known as a Fakeout).
+
+🐺 **How to separate from the herd (The Bear Trap):**
+The opposite is also true. When the market is bleeding and crashing (Downtrend), retail sells everything in fear.
+But if you look at the Long/Short Ratio or VIX (Fear Meter) and see that whales are quietly buying at a discount (Accumulation), that is Sentiment Divergence! The chart is going down, but sentiment is going up. That is the exact time we need to Buy.
+
+💡 **Pro Tip (Sentiment Trader Golden Rule):**
+Never forget: "When the chart and sentiment clash... sentiment always wins!" No matter how beautiful the SMC Order Block is on the chart, if sentiment data opposes it (Divergence), never take that trade. Just watch the market. You will see it fail with your own eyes.
+
+---
+
+## Dark Pools: The invisible, illicit whale transactions you don't see on the chart!
+
+🧠 **Sentimental Analysis Masterclass - Post 22**
+
+We all trade on "Public Exchanges" (e.g., Binance, NYSE). Here, when we place a Buy order, the whole world sees it via the Order Book. However, the trillion-dollar whales (Hedge Funds, Banks) never trade in this normal market.
+They trade inside secret, invisible "Dark Pools."
+
+🤔 **Why do whales use Dark Pools?**
+Imagine a big bank wants to instantly buy 100,000 Bitcoin. If they executed that on Binance, the market couldn't handle it, and the price would skyrocket in seconds. They wouldn't be able to buy all 100,000 at a cheap price (Slippage).
+So, they go to these secret Dark Pools, coordinate with another big bank, and exchange the money secretly without causing any impact on the market. This transaction only shows up on the chart (Prints) *after* the deal is completely done!
+
+🧲 **The trap this creates for Retail Traders:**
+Have you ever wondered why the market suddenly crashes or pumps out of nowhere without any news?
+The reason is that a massive, billion-dollar transaction that happened hours earlier in a Dark Pool is finally falling onto the public chart (Dark Pool Print). While ordinary people panic, the whales have already quietly finished their game.
+
+🤯 **How do we track these hidden transactions?**
+Even though these are 100% hidden, there are tools that reveal this data.
+
+* **For Stocks:** Platforms like FlowAlgo, Cheddar Flow, or QuantData let you view Dark Pool Prints live.
+* **For Crypto:** Through On-chain tools like CryptoQuant and Glassnode, you can track these as large "Whale Transfers" leaving the exchanges.
+
+🛑 *Note:* Not all these sites are completely free. You can view Exchange Inflows/Outflows and basic on-chain data for free. However, premium "Whale Alerts" and "Live Data" on advanced charts are usually paid. Free users get delayed data. But even delayed data is more than enough for us to plan a trade using SMC!
+
+💡 **Pro Tip (Dark Pools + SMC):**
+When using these tools, if you see a massive cluster of Dark Pool transactions at a specific Price Level (e.g., EURUSD 1.0500), absolutely mark that price on your chart.
+That level is a true "Institutional Order Block"! The next time the market approaches that level, it will act like an iron wall. You can confidently take an SMC entry from that level.
+
+---
+
+## The Fear Index (VIX): How do we know beforehand when the world is going to crash?
+
+🧠 **Sentimental Analysis Masterclass - Post 21**
+
+Earlier we discussed how to measure the fear of ordinary people. Today, we talk about the official index used by the world's biggest whales (Hedge Funds, Banks) to measure market fear. This is the VIX (Volatility Index), also known as "The Fear Index."
+
+🤔 **What is the VIX?**
+This measures the expected "turbulence" or risk (Volatility) for the top 500 companies in America (S&P 500). Basically, this meter shows how big of a storm is about to hit the market.
+
+🧮 **How do we read this meter?**
+
+🟢 **If VIX is below 15:**
+
+* **Meaning:** There are no problems in the world. No wars. People are extremely happy (Complacency / Greed).
+* **Danger:** When everyone is happy and buying without fear, that is exactly when whales suddenly dump the market! When VIX is very low, there is a high probability that the market Top is forming.
+
+🔴 **If VIX is above 30:**
+
+* **Meaning:** The whole world is terrified (Extreme Fear) and running away. Amidst wars, pandemics, and bank collapses, the market has hit rock bottom.
+* **Opportunity:** For a smart trader who separates from the herd, this is the perfect time! Large whales secretly buy heavily at the bottom (Accumulation) exactly when the world is in panic and the VIX skyrockets. *(Buy when there is blood in the streets!)*
+
+🐺 **How to use it for Trading?**
+There is an inverse correlation here.
+
+* VIX goes UP ⬆️ = Stocks and Crypto go DOWN ⬇️
+* VIX goes DOWN ⬇️ = Stocks and Crypto go UP ⬆️
+
+🤯 **How to check this for free?**
+Go to TradingView and simply search for "VIX". You can see it beautifully forming candles just like any other chart.
+
+💡 **Pro Tip (VIX + SMC):**
+Imagine you have a beautiful SMC Order Block to Buy from on your chart. However, if the VIX chart suddenly spikes to the sky right at that moment, **never** buy! That means massive fear has entered the market, and it is going to smash right through your OB.
+Be patient and wait until the VIX spikes and starts turning back down. That downward reversal on the VIX is the absolute best, foolproof confirmation for your SMC entry!
+
+---
+
+## The Max Pain Theory: The invisible force that always drags the market back to the same spot!
+
+🧠 **Sentimental Analysis Masterclass - Post 19**
+
+Have you ever noticed the market getting stuck and moving sideways exactly around the same level at the end of the week or the end of the month? This doesn't happen by chance. Behind this is the most brutal game played by the market's biggest whales (Market Makers).
+This is a trillion-dollar secret known as "The Max Pain Theory."
+
+🤔 **What are Options and Max Pain?**
+While regular people trade Spot and Futures, the biggest money in the world moves in the "Options Market." Here, people buy 'Calls' if they think the market will go up, and 'Puts' if they think it will go down.
+Who sells these? Option Writers (Big Banks and Market Makers).
+
+🧲 **The Whales' Game (The Manipulation):**
+Options have an Expiration Date. The big banks want to push the value of the Calls and Puts bought by everyday retail traders to "Zero" so they can pocket all that money.
+To do this, right around the Expiration Date, they calculate the Price Level that will cause the maximum loss to the largest number of people (this is called the Max Pain Price), and they forcefully drag the market to that exact price!
+It acts exactly like a giant magnet. No matter what your Support/Resistance says, whales will drag the market to the Max Pain Price.
+
+🤯 **How can we see this in advance?**
+Anyone in the world can check this for free.
+
+* **For Crypto:** Go to the "Options" section on CoinGlass.
+* **For Forex / Stocks:** Go to a site like maximum-pain.com.
+It clearly displays what the "Max Pain Price" is for that specific day.
+
+💡 **Pro Tip (Escape the trap & Profit):**
+As the last Friday of the month (Expiration Day) approaches, if the "Max Pain Price" is very far from the current chart price... absolutely remember that the market will soon experience a massive magnetic pull toward that Max Pain value! Regardless of the current trend, you can confidently take a trade toward the Max Pain level and profit.
+
+---
+
+## Liquidity Engineering: Are you falling for the whales' illusions? (The Stop Loss Hunt)
+
+🧠 **Sentimental Analysis Masterclass - Post 18**
+
+We discussed that 90% of people lose (the 90/90/90 Rule). Today we look at how big whales (Smart Money/Banks) deliberately cause this 90% to lose.
+Once you understand this as a sentiment trader, you will never look at a chart the same way again.
+
+🤔 **The Whales' Biggest Problem:**
+The biggest problem for a major bank or Hedge Fund isn't a lack of money... it's having *too much* money!
+Imagine they need to place a 10,000 Lot Buy order on EURUSD. If they execute it all at once, the market won't be able to handle it, and the price will shoot to the sky instantly. As a result, they won't get a good entry price.
+To buy 10,000 lots, there absolutely MUST be people on the other side willing to Sell 10,000 lots! (This is what Liquidity is).
+
+🪤 **How do whales create this Liquidity (Sellers)?**
+This is where they play with the "emotions" (Sentiment) of ordinary people. They deliberately create a beautiful "Support" level or a "Double Bottom" that retail traders love to see.
+
+* **Setting the Trap:** Ordinary people see it and think, "Wow, an amazing Support, the market is bouncing from here." Everyone buys.
+* **Placing the Stop Loss (Fear):** All those buyers fearfully place their Stop Loss just below that Support!
+* **The Whales' Game (The Sweep):** Remember, the Stop Loss for your Buy trade is actually a "Sell Order"! Large whales suddenly crash the market down to break that Support. Immediately, the Stop Losses (Sell Orders) of hundreds of thousands of people are triggered.
+* **The Sniper Entry:** While retail is crying and getting sold out... the whales absorb all that liquidity to fill their massive 10,000 Lot Buy order, sending the market to the sky!
+
+💡 **Pro Tip (Avoiding the trap):**
+Never take a trade on the very first touch of a highly obvious, textbook "Support/Resistance" level that the whole world and YouTube tutorials see.
+As a sentiment trader, you know whales will inevitably break that level to eat innocent people's SLs (Liquidity Sweep). Wait patiently. The moment those SLs are swept, enter the market alongside the whales.
+
+---
+
+## Why do 90% of people who trade worldwide go broke? (The 90/90/90 Rule)
+
+🧠 **Sentimental Analysis Masterclass - Post 17**
+
+Anyone new to the market thinks, "Once I learn RSI, MACD, and Support/Resistance, I'll be successful." But there is a brutal rule in the trading world known to brokers and big whales, yet rarely spoken about.
+It is the "90/90/90 Rule."
+
+🤔 **What does this rule mean?**
+It states: "90% of new retail traders will lose 90% of their account balance within their first 90 days!"
+Yes, the majority always loses. But why does this happen?
+
+🪤 **Where is the trap?**
+Trading isn't a place where money is magically printed for you. It is a "Zero-Sum Game." This means if someone makes a $1000 profit on one side, someone else (or a group of people) on the other side must absolutely lose that $1000.
+While the biggest banks and Hedge Funds (Smart Money) make billions in profit... who is giving them that profit?
+It is the 90% of losing retail traders! The basic Technical Analysis (Double Top, Head and Shoulders) you learn on YouTube is known by that same losing 90%. Therefore, the whales beautifully paint these patterns on the chart to trick retail traders and hunt their Stop Losses.
+
+🐺 **How to join the winning 10% (Smart Money)?**
+To escape the losing 90%, there is only one way. You must separate from the herd (Contrarian Trading).
+
+* When the herd sells in fear, you must look for reasons to Buy.
+* When the herd greedily (FOMO) buys thinking the price will go to the moon, you must Sell and exit.
+
+That is exactly why we've learned "Sentimental Analysis." Using tools like Myfxbook, COT Reports, and the Long/Short Ratio, we figure out exactly where the losing 90% is positioned!
+
+💡 **Pro Tip (Change your mindset today):**
+A normal trader looks at a chart and asks, "Where is the market going next?"
+From today, when you see a chart, that is not the question to ask. You must ask: **"Where does the losing 90% have their money trapped right now? And where will the whales take the market to steal it?"**
+Once you start thinking this way, how you view the market will change completely.
+
+---
+
+## View the Whales' Secret Document for Free! (Top Free COT Data Sites)
+
+🧠 **Sentimental Analysis Masterclass - Post 11**
+
+We've discussed the theory behind the COT Report (Commercials vs. Non-Commercials, Net Long/Short, Extremes). But if you try to read it on the US Government's CFTC website, it just looks like a massive spreadsheet of raw numbers.
+Smart traders never put themselves through that. There are superb platforms that turn these numbers into beautiful charts for us entirely for free. Here are 3 of the best in the world:
+
+🖥️ **1. Tradingster.com:**
+No account creation needed, completely free.
+
+* Search "Tradingster COT" on Google.
+* Select the pair you want (e.g., Euro FX, Gold).
+* It displays beautiful colored lines under the chart showing whether Hedge Funds are Buying or Selling. Very easy!
+
+📊 **2. TradingView (The tool everyone uses):**
+If you already use TradingView for Technical Analysis, you don't need to go anywhere else. It's built right in!
+
+* Go to "Indicators" on TradingView.
+* Search for "Commitment of Traders".
+* In the Community Scripts, there are plenty of excellent, free COT indicators. Once applied, you can clearly see the Net Longs / Net Shorts right below your candles.
+
+📈 **3. Barchart.com:**
+This is another legendary platform used globally by traders, where you can easily view COT data in beautiful graphs.
+
+💡 **Pro Tip (Do this starting today):**
+This report is released by the US Government once a week, usually on Friday night (early morning Sri Lanka time).
+Therefore, before taking any trades on Monday morning, take 10 minutes over the weekend, visit one of these sites, and check which direction the big whales have positioned their money for the upcoming week. It will act as a "Cheat Code" for your trading plan next week!
+
+---
+
+## The meter that measures the "Fuel" of a Trend! (What is Open Interest?)
+
+🧠 **Sentimental Analysis Masterclass - Post 10**
+
+We talked about finding market Reversals using Extreme Readings from the COT report. Now let's look at how to play the game using another incredible metric found in this report: "Open Interest" (OI).
+
+🤔 **What is Open Interest?**
+Put simply, this is the "new money" (Fuel) entering the market!
+When traders globally open a new trade (Buy or Sell), this Open Interest value increases. When they close their trades and exit the market, this value decreases.
+For a vehicle to move forward, it needs continuous fuel, right? For a market to keep moving up or down, it needs continuous "new money" (Open Interest) added to it!
+
+📊 **How to catch Fake Trends using this?**
+There are 4 very simple rules:
+
+🟢 **1. Price ⬆️ + Open Interest ⬆️ = 🚀 (Extremely strong Up Trend):**
+The price on the chart is going up, and the OI value is also increasing.
+
+* **Meaning:** Big whales are pouring billions in new money to push the market up. This is a very strong trend. Buy without fear!
+
+⚠️ **2. Price ⬆️ + Open Interest ⬇️ = 🛑 (Fake Up Trend / Reversal):**
+The chart goes up, but the OI value decreases!
+
+* **Meaning:** No new money is entering the market. The price is only rising because people are closing old short trades (Short Covering). The vehicle is out of fuel! The market could crash very soon. Do not Buy!
+
+🔴 **3. Price ⬇️ + Open Interest ⬆️ = 💥 (Extremely strong Down Trend):**
+The price is going down, and the OI value is increasing.
+
+* **Meaning:** Whales are injecting new money to smash the market further down (New Shorts). This is a real downtrend. Look for Sell Setups!
+
+⚠️ **4. Price ⬇️ + Open Interest ⬇️ = 🛑 (Fake Down Trend / Reversal):**
+The chart goes down, but the OI value decreases.
+
+* **Meaning:** The drop isn't fueled by new money; it's happening because buyers are fearfully closing their trades (Long Liquidation). The market could reverse back up soon. Do not attempt to Sell right now!
+
+💡 **Pro Tip (The Smart Whale's Secret):**
+If you use a Breakout Strategy (e.g., when the price breaks above Resistance), you must absolutely check if the OI is increasing at that moment. If the OI decreases during a breakout, it is undoubtedly a "Fakeout" designed to trick you! Don't fall for it!
+
+---
+
+## Extreme COT Readings: Catching the exact point the market completely reverses!
+
+🧠 **Sentimental Analysis Masterclass - Post 09**
+
+We discussed how to find the market trend using the "Net Position" of Hedge Funds (Whales). (If Net Long, they are buying; if Net Short, they are selling).
+But the issue is... a trend doesn't go in the same direction forever. One day, even these whales run out of money. When that day comes, the market prepares for a massive crash or a massive pump (Major Reversal).
+How do we know this in advance? That is why we use the "Extreme Readings" of the COT report.
+
+Remember, the market is like a "rubber band."
+There is a maximum limit to how far you can stretch a rubber band. Once it passes that limit, it violently snaps back. The market is exactly the same!
+
+📊 **What is a COT Extreme?**
+
+**1. Extreme Net Long (Rubber band stretched to the top):**
+Imagine over the last 3 years, Hedge Funds' maximum Net Long position on EURUSD was 200,000 contracts. When this week's report comes out, they have reached that historical maximum (Historical High)!
+
+* **Meaning:** Almost everyone with big money globally has already bought EURUSD. There is nobody left to buy and push it higher! The market is out of "fuel."
+* **Your Plan:** When an Extreme Long situation like this occurs, you should know that whales will soon start slowly selling to take profits. Instead of buying more, you need to prepare for a massive Sell (Short) Reversal!
+
+**2. Extreme Net Short (Rubber band stretched to the bottom):**
+This happens when Hedge Funds hit their largest sell-off in years (Historical Low).
+
+* **Meaning:** Everyone in the market has finished selling. There is no one left to push the market lower.
+* **Your Plan:** The market is absolutely preparing to skyrocket (start a Bull Market). You should only be looking for Buy (Long) Setups!
+
+💡 **Pro Tip (Absolutely remember this):**
+Just because the COT report hits an Extreme, never blindly place a trade the next morning! The COT only provides the "Context" (the environment).
+When you see an Extreme, go to your Daily or Weekly chart and look for a break in Market Structure or the formation of a large Reversal Pattern (like a Double Top or Head & Shoulders). The COT loads the bullet into the gun; Technicals pull the trigger!
+
+---
+
+## Let's look inside the Broker! (OANDA Order Book & Stop Loss Hunting)
+
+🧠 **Sentimental Analysis Masterclass - Post 05**
+
+Here is a place where the biggest game in the market is played, something 99% of retail traders don't even dream about. 🔥
+
+Have you ever seen the market come down, hit your exact Stop Loss to the pip (Pinpoint), kick you out of the trade, and then immediately skyrocket in the direction you originally predicted? This isn't the broker staring at your screen personally. The exact spot where you placed your Stop Loss is where millions of other innocent retail traders placed theirs. And big whales can see all of this clearly through the broker's "Order Book"!
+Today we are using the "Order Book" tool from OANDA, one of the massive brokers in the world.
+
+🔍 **There are 2 main sections to this Order Book:**
+
+**1. Open Positions (Where people are trapped):**
+This graph shows at what price people around the world have taken trades and are currently holding them while "in the red" (losing money). If you see large orange pillars here, it means a lot of people are stuck in serious trouble at that level.
+
+**2. Open Orders (Where the Stop Losses are):**
+This is the secret! This shows exactly at what prices people's Pending Orders and, most importantly, their "Stop Losses" are sitting.
+You will notice large "pillars" (Clusters) in the order book forming around round numbers like 1.1000 or 1.0500. This means ordinary retail traders worldwide hid their Stop Losses just below those round numbers!
+Big Banks (Smart Money) will slowly drag the market down there, eat all those Stop Losses (Liquidity Sweep), and then push the market up.
+
+🤯 **Do you need an OANDA Account to see this?**
+No! You don't need an account to view this order book.
+Search "OANDA Order Book Web" on Google. They offer this tool for everyone to view for free.
+Another easy alternative is "Myfxbook Community Outlook". You can see this data beautifully without any login required.
+
+💡 **Pro Tip (Do this starting today):**
+Never place your Stop Loss right at a round number like 1.1000 or exactly on the Support line like normal retail traders do. Always give it a 5 to 10 pip breathing room (Buffer). Do not get caught in that massive Stop Loss pillar!
+
+---
+
+## Find out where 80% of people are trapped! (Retail Sentiment Indicators)
+
+🧠 **Sentimental Analysis Masterclass - Post 04**
+
+We discussed the Fear & Greed index used for Crypto and Stocks. But forex traders have a question: "How do we know exactly if people are Buying or Selling pairs like EURUSD or Gold right now?"
+This is exactly why we use "Retail Sentiment Indicators."
+
+🤔 **What is Retail Sentiment?**
+There are massive Forex Brokers globally (e.g., IG, OANDA). They generously share free data showing the percentages of where millions of "Retailers" on their platforms have their money positioned at any given moment.
+For example, you check the "IG Client Sentiment" for the EURUSD chart today.
+It clearly shows: **"EURUSD - 82% Long (Buy) | 18% Short (Sell)"**
+
+🤯 **What do you think when you see this?**
+An ordinary person thinks, "Wow, 82% of people are buying. That means it must definitely be going up. I need to buy too!"
+That is the biggest mistake you can make!
+
+🐺 **How does a Smart Trader (Contrarian) play this?**
+Remember the golden rule of the market? "The majority is always wrong!" If 82% of people have already bought EURUSD, it means there are barely any buyers left to push the market higher. Furthermore, the Stop Losses for that 82% are all sitting at the bottom of the chart.
+When Big Banks (Smart Money) see this, they will instantly crash the market down (Sell) to eat the Stop Losses of that 82%!
+
+* Therefore, if this meter shows over 80% of people are Buying (Extreme Long), you should only look for **Sell Setups!**
+* If this meter shows over 80% of people are Selling (Extreme Short), you should only look for **Buy Setups!**
+
+💡 **Pro Tip:**
+Never blindly place a trade the moment you see this percentage. We only use this to get an idea of the market's "Direction." To actually take the entry, you must use a Technical Strategy like SMC or Price Action.
+*(If you want to view this data for free, search "IG Client Sentiment" or "Myfxbook Community Outlook" on Google).*
+
+---
+
+## The exact meter to measure Fear and Greed! (The Fear & Greed Index)
+
+🧠 **Sentimental Analysis Masterclass - Post 03**
+
+In previous posts, we said, "We must Buy when people are fearful, and Sell when people are greedy."
+But the problem is... how do we know exactly if global traders are in "fear" or "greed" right now? 🤔 We can't measure that by reading Facebook posts.
+That is why the world's biggest investors use a superb meter that runs from 0 to 100. This is called the "Fear & Greed Index."
+For those trading Crypto and Stocks, this is an absolute treasure!
+
+🌡️ **How does this meter work?**
+This is just like a vehicle's speedometer. The value changes between 0 and 100.
+
+🔴 **0 - 24 (Extreme Fear):** The market is bleeding and crashing. Everyone is cutting their losses and running away.
+🟠 **25 - 49 (Fear):** People are shivering and scared to take a trade.
+🟡 **50 (Neutral):** There is no strong emotion in the market; it is moving normally.
+🟢 **51 - 74 (Greed):** The market is going up, and people are getting eager to make profits.
+🟢 **75 - 100 (Extreme Greed):** The market is skyrocketing. Even the person on the street who knows absolutely nothing about trading is taking loans to Buy.
+
+🐺 **How does a Smart Trader play the game using this?**
+
+**1. The Red Zone (Extreme Fear):**
+When the meter drops to 10 or 15 and is dark red, ordinary retail traders think, "The market is finished, it's going to zero." However, large whales (Smart Money) know this is the absolute best time to buy the world's most valuable assets at a massive discount. If you are looking for a Long-term Buy, that is the perfect spot!
+
+**2. The Green Zone (Extreme Greed):**
+If the meter crosses 80 and turns dark green, everyone thinks, "Wow, we are going to be millionaires, it's going higher." But by this point, the large whales who bought at the bottom want to Sell to take their profits. They sell their bags to the new, greedy retail buyers entering the market. After that, the market suddenly crashes. If the meter is at Extreme Greed, do not buy; prepare to take your profits and exit!
+
+💡 **Pro Tip:**
+Do not use this meter for small, day-to-day (Day Trading) trades. This is used to catch the massive market Trends (Swing Trading / Investing) and to find major Reversals.
+Google "Crypto Fear and Greed Index" today to see for yourself whether the market is currently in fear or greed!

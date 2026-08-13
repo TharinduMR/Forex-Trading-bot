@@ -1,0 +1,172 @@
+Here is the English translation of the trading notes, adapted to be clear and natural for traders:
+
+## "The Magic Ruler" that Measures the Market (Fibonacci & Elliott) - EWT Lesson 07
+
+Elliott Wave isn't just about drawing pictures. It's a mathematical method. How do we know exactly "Where will Wave 2 stop?" or "How far will Wave 3 go?"
+That is where Fibonacci comes to the rescue. Memorize these numbers!
+
+📉 **Where Wave 2 stops (Retracement):** Wave 2 very often retraces 50% or 61.8% downwards from Wave 1. (This is the Golden Zone. Buying here is the safest).
+🚀 **How far Wave 3 goes (Extension):** Wave 3 travels a long distance. Often, it extends 1.618 times the length of Wave 1. (This is the best place to take Profit).
+📉 **Where Wave 4 stops (Retracement):** Wave 4 doesn't retrace very deeply. It only comes down about 38.2% of Wave 3.
+
+If you keep these rules in mind, you will start seeing the future of the market. Like magic! ✨
+
+---
+
+## Right Before the Market Explodes! (The Triangle Pattern) - EWT Lesson 06
+
+We previously discussed Zig-Zag (fast) and Flat (sideways) corrections. Now we are going to discuss the third and most special Correction. That is the Triangle.
+This acts just like a "Spring". The market gets increasingly compressed. Finally, it explodes with immense pressure.
+
+🔺 **How to identify a Triangle?**
+
+* **Compression between two lines:** The upper line slopes downward, the lower line slopes upward (Contracting).
+* **5 Waves:** While other Corrections (ZigZag/Flat) are formed by 3 segments called A-B-C, a Triangle is formed by 5 segments called A-B-C-D-E.
+* **Location:** This is mostly seen *only* in Wave 4. (Rarely, it can appear in Wave B). This does *not* appear in Wave 2.
+
+💡 **How to Trade it:** Do not trade inside the Triangle. Wait until Wave E finishes and the market breaks out of the Triangle (Breakout). That breakout is the final wave, Wave 5, launching.
+
+---
+
+We discussed earlier that after a Trend, the market takes a rest (Correction). However, this resting happens mainly in 2 ways. If you don't identify this correctly, you will lose money!
+
+⚡ **1. Zig-Zag (Crashing like lightning)** - This is the scary one.
+
+* **What happens?** The price drops rapidly downwards (Deep Drop).
+* **How does it look?** Like the English letter "Z".
+* **How it makes you feel:** "Oh my god, the market is crashing, I need to sell quickly!" (Fear).
+* **Trading Opportunity:** This is a great opportunity. Because you can buy at a very low price (Discount).
+
+📦 **2. Flat (Stuck inside a box)** - This is the frustrating one.
+
+* **What happens?** The price doesn't go down. It fluctuates up and down, struggling in the same area (Sideways).
+* **How does it look?** Like a square box.
+* **How it makes you feel:** "This isn't going anywhere. So boring." (A waste of time).
+* **Trading Opportunity:** Do not trade during this time. Wait until it jumps out of the box (Breakout).
+
+💡 **Simple Secret:**
+
+* If the chart is coming sharply downwards -> It's a Zig-Zag. (Get ready to Buy).
+* If the chart is moving sideways -> It's a Flat. (Be careful).
+Look at the picture. You will clearly see the difference between these two patterns.
+
+---
+
+We know that 1, 3, and 5 represent the "Trend" (Impulse). So what are Wave 2 and Wave 4? They are the places where the Trend "takes a breath" (Pullbacks).
+But these two operate in two different ways. Don't try to trade without knowing this difference!
+
+😰 **Wave 2: The "Test of Faith" (Fear)**
+
+* **Nature:** This pulls back very deeply downwards (Deep Correction). Often, it retraces 50% or 60% (Golden Ratio) of Wave 1.
+* **Psychology:** People are scared. They think the Trend was fake. Therefore, they sell. Smart Money uses this fear to Buy at a discount.
+
+😴 **Wave 4: The "Profit Taking" (Boredom)**
+
+* **Nature:** This does not pull back very deeply (Shallow). It moves "sideways" (Sideways).
+* **Psychology:** Those who made money from Wave 3 take their profits and exit. Therefore, the market gets stuck in one place.
+
+⚖️ **The Rule of Alternation:** There is a Golden Rule in Elliott Wave.
+💛 "If Wave 2 came back deeply (Sharp), Wave 4 must absolutely go sideways (Sideways)." (Both will not look the same).
+
+---
+
+Elliott Wave is not an art where you can just place numbers wherever you feel like it. It is a mathematical theory. It has "3 Unbreakable Rules" (Cardinal Rules).
+If even one of these three rules is violated in your Count, your entire analysis is wrong!
+
+🛑 **Rule #1: The Survival Rule**
+📍 *"Wave 2 can never retrace more than 100% of Wave 1."*
+
+* **Meaning:** Wave 2 cannot go lower than the starting point of Wave 1.
+* **Logic:** Wave 1 indicates the start of a new Trend. If Wave 2 goes below its origin, it means the old Trend is not yet over.
+
+🛑 **Rule #2: The Power Rule**
+📍 *"Wave 3 can never be the shortest among Wave 1, 3, and 5."*
+
+* **Meaning:** Out of the 3 driving waves (1, 3, 5), Wave 3 cannot be the shortest one. Often, Wave 3 is the longest.
+* **Logic:** Wave 3 is the time when the general public enters the market. That is where the highest Volume is. There is no way it can be short.
+
+🛑 **Rule #3: The Space Rule**
+📍 *"Wave 4 can never overlap with the price territory of Wave 1."*
+
+* **Meaning:** The lowest point of Wave 4 cannot touch the point where Wave 1 ended (its High).
+* **Logic:** If it touches, then it is not an Impulse; it is still a Range or a Diagonal Pattern.
+
+Save this diagram. Before taking a trade, check if these 3 rules are met! 👇
+
+---
+
+Have you ever wondered, "Why doesn't the market just go straight up? Why does it go up, come down, and then go up again?"
+Ralph Nelson Elliott discovered the reason for this in the 1930s. He said the market operates in a "Fractal" nature. This means smaller waves are hidden inside larger waves.
+
+Any Full Cycle in the market is divided into 2 parts:
+1️⃣ **The Impulse Phase (The moving waves - 5 Waves):** This is the Main Trend of the market.
+
+* **Wave 1, 3, 5:** These move in the direction of the "Trend" (Motive Waves).
+* **Wave 2, 4:** These are small rests (Retracements).
+* **Psychology:** This is exactly like a team climbing a mountain. They climb up three times (1, 3, 5) and stop to rest twice along the way (2, 4).
+
+2️⃣ **The Corrective Phase (The resting waves - 3 Waves):** After a major Trend, the market must absolutely make a Correction. Otherwise, that journey is not stable.
+
+* **Wave A, B, C:** These move against the Main Trend (Counter-Trend).
+* **Psychology:** The time to climb back down after reaching the peak of the mountain.
+
+💡 **Key Takeaway:** When looking at a chart, don't just see random lines.
+
+* 5 steps forward (1-2-3-4-5)
+* 3 steps back (A-B-C)
+If you can find this pattern, you can tell "whether we are in the middle or at the end of the wave."
+
+---
+
+Have you noticed how the market seems to be pulled like a Magnet toward certain price levels? No matter how high it goes, it comes back down and stops at a specific spot.
+In AMT (Auction Market Theory), we call this the POC (Point of Control).
+
+🎯 **What is this POC?**
+When looking at the Volume Profile, the place with the "Longest Bar" during the day is the POC. Put simply, this is the "fairest price" where both buyers and sellers agreed the most, and where the most transactions occurred.
+
+💡 **How do you Trade using the POC?**
+
+* **Magnet Effect:** If the price moves very far away from the POC, there is a high probability it will return toward the POC. (Mean Reversion).
+* **Support/Resistance:** An old POC (Naked POC) acts as a very strong Support or Resistance in the future. When the price reaches it, there is inevitably a Reaction.
+* **Secret:** Before trading tomorrow, mark where yesterday's POC was. That will be your primary Target or protector for tomorrow.
+
+**Where was the POC?**
+There are two main ways to do this. Go to your TradingView,
+Here is how to find the POC Step-by-Step:
+
+1️⃣ **Method 01: Using the "Fixed Range Volume Profile" Tool (The most accurate method)**
+This is a free tool available on TradingView.
+♦️ Go to the Tool Bar on the left side of the TradingView chart.
+♦️ Look in the "Prediction and Measurement Tools" section for "Fixed Range Volume Profile".
+♦️ Click on it.
+♦️ Now on the chart, click the first candle of yesterday (Start).
+♦️ Then drag your mouse and click the last candle of yesterday (End).
+♦️ You will now see some "Bars" overlaid on the chart.
+♦️ The longest bar or the prominently highlighted Red Line is the POC.
+♦️ Now take the standard Horizontal Line or Horizontal Ray Tool and draw a line exactly over that red line.
+Extend that line forward (into today).
+
+2️⃣ **Method 02: Using an Indicator (The easiest method)**
+If you are too lazy to draw it every day, you can use an Indicator.
+♦️ Go to "Indicators" at the top of TradingView.
+♦️ Type "Session Volume Profile" in the Search Bar.
+♦️ Select one from the Community Scripts in the list.
+💡 *Note: TradingView sometimes restricts the Official "Volume Profile" to Paid packages. Therefore, choose a free Community Script.*
+♦️ Once added, it will automatically show the POC with a red line for every day.
+♦️ All you have to do is draw a new line starting from where yesterday's red line ends.
+
+💡 **Quick Tips:**
+⚙️ **Adjusting Settings:** If you are using the first method (Fixed Range), go to its Settings and slightly increase the "Row Size" (e.g., to 100-200). Then you can see a more precise POC.
+
+To mark the POC accurately, the Time Frame is very important.
+When drawing the Fixed Range Volume Profile, the best Time Frame to use is 15 minutes (15m) or 30 minutes (30m).
+
+**Why is that?**
+
+* **Clear Data (Accuracy):** If you are on a large Time Frame like 1 hour (H1) or 4 hours (H4), only 6 or 24 candles are formed for yesterday. Then it's hard for the Volume Profile to find the exact "Price Level" where the most transactions occurred. There isn't enough data.
+* **Internal Structure:** On the 15-minute or 30-minute chart, the way the price behaved during the day (Price Action) is clearly visible. Then the shape of the Profile (D shape / P shape) forms beautifully.
+
+⚙️ **How should you use it? (Recommendation)**
+♦️ **For Intraday Trading (Day Trading):** Set the chart to 15m. Then select the range from yesterday morning to night and draw the POC. This is the most accurate method.
+♦️ **For Scalping (1-5 minutes):** If you are scalping, you can use the 5m chart to mark the POC. However, 15m is usually sufficient.
+♦️ **For Swing Trading (Long-term):** If you hold trades for a week or two, it is better to select the past few days (about a week) all at once on the H1 or H4 chart to find the "Weekly POC".

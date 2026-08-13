@@ -1,0 +1,323 @@
+Here is the English translation of the trading notes:
+
+## A Shadow of a World War: How will the US-Israel-Iran Conflict Affect Our Trading? 📉📈
+
+The current global situation is extremely dangerous. The severe military situation (Geopolitical Crisis) involving America, Israel, and Iran has caused a massive shockwave in the global economy.
+Normal market rules do not work during times like this. So, how do we protect our capital and trade during these risky times? How will the market behave? 👇
+
+🥇 **1. Forex and Commodities (Gold and Oil):**
+
+* **Gold (XAU/USD) 📈:** No matter what problem arises in the world, Gold is the primary Safe Haven for investors. Because people tend to buy gold during a war, the price of Gold rises rapidly (Massive Long/Buy).
+* **Crude Oil (USOIL/WTI) 📈:** A war in the Middle East is a direct hit to the global crude oil supply. Because of this, Oil prices can skyrocket.
+* **Currencies:** Major investors do not want to take risks during times like these. Therefore, Safe-haven currencies like the USD (US Dollar), JPY (Japanese Yen), and CHF (Swiss Franc) strengthen. However, currencies like EUR, GBP, and AUD can suffer massive drops.
+
+🔴 **2. What happens to the Crypto Market? (The Initial Dump):**
+Crypto is a 'High Risk Asset' market. As soon as news of a war breaks, large whales panic, sell all their Bitcoin and Altcoins, and convert them to Cash (USDT).
+The 'USDT Dominance (USDT.D)' we discussed earlier suddenly shoots up. As a result, the entire Crypto market experiences a massive crash (Bearish Dump).
+✳️ *However, keep in mind that after the initial shock, Bitcoin might behave as "Digital Gold" and bounce back up.*
+
+📉 **3. Stock Market:**
+Major Indices like the S&P 500 and NASDAQ can fall.
+However, Defense Stocks (companies that manufacture weapons and military equipment) and Stocks in the Energy Sector will make massive profits during this time.
+
+⚠️ **Absolutely Remember (Survival Tips):**
+🔰 During times like this, market Spreads become very large.
+🔰 Never trade randomly (Gamble) during News times!
+🔰 Use only half (Half Risk) of your usual Lot Size.
+🔰 Do not even step into the market without a Stop Loss! 🛑
+
+War is a tragedy that destroys human lives. While that happens, let's watch the market intelligently without destroying our Trading Accounts too. Victory to you! 🤝💎
+
+---
+
+## Never Give Profits Back! Let's Chase the Profits (Trailing Stop Loss)
+
+🏃‍♂️ **The Survival Guide - Post 19**
+
+A Golden Rule in trading is "Let your winners run and cut your losers short."
+However, while "letting it run," the ultimate technique we use to secure the profits we've already made (Locking profits) is called a Trailing Stop Loss (TSL).
+
+🔒 **1. What is a Trailing Stop?**
+A normal Stop Loss (SL) is stuck in one place (Static). But a Trailing Stop Loss is a dynamic SL that follows the market as it moves in your favor (into profit).
+
+* As the market goes up, the TSL also goes up.
+* But if the market comes down (reverses), the TSL stays "locked" at the highest point it reached. The moment the market hits it, the trade is Closed in profit!
+
+🪜 **2. How do we do this practically? (The Strategy):**
+Although you can set Auto Trailing on MT4/MT5, professional traders do this Manually.
+
+* Imagine you placed a Buy order. The market never goes up in a straight line. It moves like a staircase (creating Higher Highs and Higher Lows).
+* As the market breaks a new High and moves up, you lift your SL and place it slightly below the previous Low (Swing Low) that was formed.
+* When it forms another new High, you lift the SL to the next newly formed Low.
+In this way, you can keep collecting profits until the Trend is completely over!
+
+⚠️ **3. The biggest mistake many make (Trailing Too Tight):**
+When setting a TSL, many people out of fear place the SL so close to the market price that it's "almost touching it."
+You need to give the market room to Breathe. The market naturally gives small Pullbacks. If your TSL is too close, your trade will hit the SL and Close during that small pullback, and then you'll just have to watch as the market skyrockets again.
+
+💡 **Pro Tip:**
+If you find it hard to figure out exactly where to place a TSL, add the 20 EMA (Exponential Moving Average) or the ATR (Average True Range) Indicator to your chart. If you trail your SL just outside these lines, you can catch a Trend from the very beginning to the very end!
+
+---
+
+## Let's make "Free" money from the market! (Breakeven & Partials)
+
+🆓 **The Survival Guide - Post 08**
+
+One of the biggest Golden Rules in Trading is: "Never let a winning trade turn into a loser!"
+How do we do this? Professional traders use 2 main weapons for this.
+
+🛡️ **1. Breakeven (BE) - "A free trade":**
+Imagine you place a Buy order, and it moves beautifully in your direction (e.g., a 1:1 RR is complete).
+Now, your Stop Loss is at the bottom. What you do is lift that SL and place it exactly at your Entry price! *
+
+* **The Advantage:** What happens if the market crashes back down now? It hits your SL. But you don't lose a single cent! ($0 Loss). This is called a Risk-Free Trade. Now you can sleep without any fear.
+
+💰 **2. Taking Partial Profits (Putting half in your pocket):**
+Imagine you placed a 0.10 Lot trade and it's in profit. But you are scared the market might reverse, yet you still want to hold until your full target (TP).
+What you do is Close half of your 0.10 Lot (0.05) right then and put that profit in your pocket! You let the remaining 0.05 run.
+
+* **The Advantage:** Now you definitely have a guaranteed profit in your pocket. If the rest hits the TP, even more profit. If it reverses, no problem at all, because you already secured some money early!
+
+🎯 **3. The Ultimate Combo of both:**
+What Smart traders do when a trade goes halfway is,
+
+1. First, they take Partials (put a portion of the profit in their pocket).
+2. Then, they move the SL of the remaining trade to Breakeven (BE).
+Now there is no way for you to lose! 100% win! Wherever the market goes, you are happy. 😎
+
+⚠️ **A quick piece of advice:**
+As soon as you place a trade and it goes slightly into profit, don't rush to BE in a panic. You must give the market room to fluctuate (Breathe). Otherwise, your BE will get hit and the market will continue in your predicted direction. Only use these techniques after you reach at least a 1:1 RR.
+
+---
+
+## The Economic Masterclass - Post 25 (The Grand Finale)
+
+No matter how well you know SMC or Elliott Wave, if you don't know Fundamentals, it's like driving a "beautiful car without an engine."
+Let's see how to use both and create a Daily Blueprint to increase your Win Rate in the market to over 90%.
+These are the 4 steps the world's most successful traders take when they wake up in the morning!
+
+🌅 **Step 1: At 6:00 AM - The Calendar and the Mood (The Weather Check)**
+As soon as you turn on your laptop, do not go to the chart. First, go to Forex Factory. Write down on a piece of paper what the Red Folders (big news) are for today and their times.
+Next, check global political news (Bloomberg/Reuters) to catch the market's mood. Is today Risk-On (no fear) or Risk-Off (fearful)?
+
+👑 **Step 2: At 6:15 AM - Let's check the Bosses**
+Go to TradingView and first look at the DXY (Dollar Index) and US10Y (Interest Meter) charts.
+If the Dollar is going up (Strong), the only thought in your head for the whole day should be "I am Selling EURUSD/Gold today!" Your "Bias" (direction) is already decided.
+
+📐 **Step 3: At 6:30 AM - Let's draw the Map (The Technical Alignment)**
+Now go to your favorite chart (e.g., Gold).
+Now you know that because DXY is Strong today, Gold will go down (Sell). Therefore, never look for a Buy Setup.
+Using SMC or EWT, mark the next Strong Resistance, Order Block, or FVG. That is your "Point of Interest" (POI).
+
+🎯 **Step 4: Afternoon / Evening - The Hunt (The Execution)**
+Now wait patiently. Volume enters the market when the London or New York Session opens.
+When the Price reaches the POI you marked, go to a smaller Timeframe (M15/M5), look for Technical Confirmations (CHoCH / Break of Structure), and take the entry.
+‼️ Do not forget to place your Stop Loss correctly!
+
+💡 **The Golden Rule:**
+✴️ Fundamentals tell you "Which direction to go."
+✴️ Technicals tell you "Exactly where to take the entry (Timing)."
+The "magic" happens where these two combine! ✨
+
+Thank you so much to everyone who stayed with this "Economic Masterclass"!
+
+---
+
+## The world's most powerful "Interest Meter" that sees the future even faster than the Dollar! (US 10-Year Treasury Yield)
+
+📈 **The Economic Masterclass - Post 21**
+
+We all know the power of the Dollar is measured by the DXY (Dollar Index). But did you know there is another secret chart that Smart Money traders look at even before looking at the DXY?
+Search on TradingView: **US10Y** (US 10-Year Treasury Yield).
+
+🏛️ **1. What is this US10Y?**
+This shows the interest rate (Yield) received by investors who lend money to the US Government for 10 years.
+This is the "Benchmark" for the entire global economy. Every other loan and mortgage in the world is determined by looking at this meter.
+
+💡 **2. Why is this more important than the DXY? (The Logic):**
+The Dollar goes up because people buy Dollars. But why do people buy Dollars?
+Because the interest (Yield) in America is high!
+That means:
+📍 US10Y (Interest) is the Cause.
+📍 DXY (Dollar) is the Effect.
+The cause always moves faster in the market than the effect!
+
+⚖️ **3. How to Trade using this? (The Cheat Codes):**
+
+* **US10Y and Gold (XAUUSD): Mortal Enemies! ⚔️**
+If the US10Y chart is going up (interest is rising), it is very bad for Gold. Because Gold doesn't pay any interest.
+*Trading Hack:* If the US10Y breaks a major Resistance and goes up, never Buy Gold! Gold is destined to crash.
+* **US10Y and USDJPY: Best Friends! 🤝**
+Japan's interest rate is basically zero. So when America's interest rate (US10Y) rises, Japanese investors crazily sell Yen to buy Dollars.
+*Trading Hack:* The US10Y chart and the USDJPY chart move identically most of the time. If the US10Y is going up, Buy USDJPY without fear.
+
+From today, add the US10Y chart right next to the DXY at the top of your TradingView Watchlist. Then you too will see the market's future in advance! 😎
+
+---
+
+## The "Black Swans" not on any calendar that destroy the market in a second! (Geopolitics & Black Swans)
+
+🦢 **The Economic Masterclass - Post 18**
+
+So far, we've talked about news previously scheduled on a Calendar (e.g., NFP, CPI, GDP).
+But the biggest turning points in the market are never written on a calendar. They happen suddenly!
+We call these Geopolitics and Black Swan Events.
+
+🌍 **1. Geopolitics (World Politics and Wars):**
+What if a Middle Eastern country suddenly fires a missile at another country? Or what if the US President suddenly slaps a new Sanction on China?
+These are not pre-planned events. As soon as this kind of "Breaking News" hits, market investors Panic.
+*Result:* As we discussed in Post 16, the entire market switches to "Risk-Off" mode in a second. Scared investors sell all risky assets and jump into safe havens like Gold (XAUUSD) and the Japanese Yen (JPY).
+
+🦢 **2. What is a "Black Swan"?**
+A Black Swan is an event that "people thought would never happen, but suddenly does and shakes the whole world."
+
+* *Example 01:* The COVID-19 pandemic in 2020. The whole world went into lockdown, and the market crashed in a matter of days. 📉
+* *Example 02:* The 2015 "Swiss Franc Flash Crash". The Swiss Central Bank suddenly changed their currency rule. Within minutes, the EURCHF pair crashed by 3000 Pips! Even many brokers went bankrupt. 😱
+
+🛡️ **3. How to survive this? (The Survival Rule):**
+No matter how well you know Technicals, no matter how much you analyze Fundamentals, absolutely no one can predict exactly when these "Black Swans" will arrive.
+The only weapon you have to survive them is the Stop Loss (SL)!
+Just one piece of sudden news can wipe out a trader's entire account to zero in a second if they trade without an SL.
+
+---
+
+## How do you catch the "Mood" of the market? (Risk-On vs Risk-Off)
+
+🎭 **The Economic Masterclass - Post 16**
+
+The market runs not just on numbers, but on the "psychology" (Market Sentiment) of investors.
+Billionaires and investors globally operate primarily in two moods. If you understand this perfectly, you can predict in advance where the money will flow.
+
+🟢 **1. The Happy Mood: "Risk-On" (Willing to take risks)**
+
+* *Situation:* There are no problems in the world. No wars. Companies are making good profits. The economy is growing.
+* *Investor Behavior:* Now they want to find High Returns no matter what. So they fearlessly invest money in Risky assets.
+*Assets that go UP (Buy):*
+*️⃣ Stocks
+*️⃣ Crypto (Bitcoin etc.) 🚀
+*️⃣ AUD (Australian Dollar) and NZD (New Zealand Dollar) - These are High-Yield Currencies.
+
+🔴 **2. The Fearful Mood: "Risk-Off" (Avoiding risk)**
+
+* *Situation:* A war has started in the world. A pandemic like Corona has arrived. Or banks are collapsing.
+* *Investor Behavior:* "Oh my god, I don't need profits, I just need to save the money I have!" They get scared. 😱 They sell all those Risky assets and run looking for Safe Havens.
+*Assets that go UP (Buy):*
+*️⃣ Gold (XAUUSD) - The best security in the world. 💛
+*️⃣ JPY (Japanese Yen) and CHF (Swiss Franc) - The two safest currencies in the world.
+*️⃣ USD (US Dollar).
+
+💡 **3. Trading Strategy (How to Trade?)**
+When you wake up in the morning and see news of a "big war in the Middle East," you must realize that the market is now moving into a "Risk-Off" mood.
+You will **never** Buy AUDUSD at that time! 🚫
+You will **only** go straight to Buy Gold, or Sell USDJPY (because the Yen becomes Strong)! ✅
+Understanding the market mood is exactly like swimming with the current (Trend).
+
+---
+
+## The "Death Certificate" of the Economy! How to see a Recession 6 months in advance. (The Yield Curve)
+
+☠️ **The Economic Masterclass - Post 15**
+
+Over the past few days, we talked about data that has already entered the market (like Inflation, NFP).
+But did you know the market has an Indicator that shows the biggest upcoming "economic earthquake" well in advance?
+We call it the Yield Curve Inversion.
+To understand this, let's first look at what Bonds are.
+
+📜 **1. What is a Bond?**
+Simply put, when the government runs out of money, they borrow money from the public (and investors). In return, they give us a piece of paper (Bond) saying, "In this much time, we will give you this much interest (Yield) for this."
+
+📊 **2. The Normal Rule of the World (Normal Yield Curve):**
+Imagine you lend money to the government for 2 years. You get a 2% interest.
+But what if you lend money for 10 years? Because your money is tied up for a long time, the risk is higher. Therefore, the government must give you a higher interest, like 4%.
+"More time -> Higher interest (Yield)." This is the normal situation.
+
+☠️ **3. The "Death Certificate" of the Economy (The Inversion):**
+However, sometimes the market "goes crazy."
+Investors become extremely fearful about the immediate future (1-2 years) (due to something like a war or bank collapse).
+Then they take all their money and put it into 10-Year Bonds for safety.
+What happens then?
+The interest on 2-year bonds becomes higher than the interest on 10-year bonds!
+"2-Year Yield > 10-Year Yield"
+We call that situation a Yield Curve Inversion.
+
+📉 **4. What happens if this occurs?**
+Throughout history, every single time this has happened, a Recession has inevitably followed within the next 6 to 18 months.
+❗️ Banks stop lending.
+❗️ Companies close down.
+❗️ The Dollar crashes.
+
+💡 **What do you do as a Trader?**
+If you see that the Yield Curve has Inverted, never take a Risk in the market!
+During that time, money flows into Safe Havens. That means things like Gold (XAUUSD) and the Japanese Yen (JPY) skyrocket.
+
+---
+
+## The biggest "Hatred" in the market! (The battle between Gold and the Dollar)
+
+💛 **The Economic Masterclass - Post 14**
+
+In the previous post, we discussed the "King" that shakes the whole market, the DXY (Dollar Index).
+Now about that King's biggest enemy. That is Gold (XAUUSD).
+In the Forex market, Gold and the US Dollar have a relationship exactly like a "Seesaw" (Negative Correlation). When one goes up, the other inevitably goes down.
+Why do these two fight like this? 🤔
+
+🏦 **1. Money earns interest, Gold doesn't! (The Yield Factor)**
+If you put Dollars (USD) in the bank, you get an Interest every month.
+But if you keep Gold in your safe at home, it doesn't earn a single cent of interest. It's just a rock.
+When the Central Bank raises interest rates (Rates ⬆️), investors sell Gold and exchange that money into Dollars (because they can earn money just sitting there).
+*Result:* The Dollar goes up 🚀 / Gold crashes 📉.
+
+🛡️ **2. The Safe Haven**
+But what if a world war starts? Or a pandemic like Corona hits? If big banks collapse?
+Then people lose faith in the Dollar. They lose faith in companies.
+When people panic, they run to something whose value will never go to zero. That is Gold!
+*Result:* The Dollar drops 📉 / Gold skyrockets 🚀.
+
+⚖️ **3. The Trading Secret (The Golden Strategy):**
+✳️ If you are an XAUUSD Trader, **never** take an Entry without looking at the DXY chart!
+✳️ If DXY is at Support (ready to go up): **Never** Buy Gold!
+✳️ If DXY is at Resistance (ready to go down): Look for a Gold Buy without fear.
+
+⚠️ **One more thing:**
+There are very rare days (like during a major war) when people fearfully buy both Dollars and Gold at the same time. Then both go up. But 90% of the time, this is a "Seesaw"!
+
+---
+
+## The "King" that controls the entire market! (The US Dollar Index - DXY)
+
+💵 **The Economic Masterclass - Post 13**
+
+When we trade Forex, we trade things like EURUSD, GBPUSD, and Gold (XAUUSD).
+But have you ever wondered, "Why do all these go in the same direction all at once?" 🤔
+The reason for that is the US Dollar Index (DXY).
+
+📊 **1. What is this DXY?**
+This measures "How strong is the US Dollar?" relative to 6 major world currencies.
+It is exactly like a "weighing scale." ⚖️
+The weight of the DXY is made up like this:
+🇪🇺 Euro (EUR): 57.6% (This is the largest portion).
+🇯🇵 Yen (JPY): 13.6%
+🇬🇧 Pound (GBP): 11.9%
+🇨🇦 CAD, 🇸🇪 SEK, 🇨🇭 CHF: The rest.
+
+🔄 **2. The Golden Rule:**
+Memorize this rule in Forex.
+
+⬆️ **If DXY is going UP (Strong Dollar): 🚀**
+🔰 EURUSD, GBPUSD, AUDUSD -> Go DOWN (Sell).
+🔰 USDJPY, USDCAD -> Go UP (Buy).
+🔰 Gold (XAUUSD) -> Goes DOWN (Sell).
+🔰 Crypto (Bitcoin) -> Goes DOWN.
+
+⬇️ **If DXY is going DOWN (Weak Dollar): 📉**
+🔰 EURUSD, GBPUSD -> Go UP (Buy).
+🔰 Gold & Crypto -> Go UP (Buy).
+*(Simply: Pairs with USD at the front (USDxxx) go UP. Pairs with USD at the back (xxxUSD) go DOWN).*
+
+💡 **3. Trading Strategy (How to use it?)**
+Imagine you are planning to Buy EURUSD.
+✳️ First, look at the DXY chart.
+✳️ If the DXY is at a strong Resistance (if DXY is destined to drop),
+✳️ Then your EURUSD Buy is certain! ✅
+✳️ But if DXY is also going up, and you Buy EURUSD... you are sorry!
