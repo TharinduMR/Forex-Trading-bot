@@ -450,7 +450,16 @@ def calculate_liquidity_pools(df, atr_series):
     return df
 
 
-from numba import jit
+try:
+    from numba import jit
+    NUMBA_AVAILABLE = True
+except ImportError:
+    NUMBA_AVAILABLE = False
+    def jit(*args, **kwargs):
+        """Fallback decorator when numba is not available."""
+        def wrapper(func):
+            return func
+        return wrapper
 
 @jit(nopython=True)
 def _calculate_vp_core(high, low, close, vol, lookback):
