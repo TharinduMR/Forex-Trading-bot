@@ -164,6 +164,13 @@
             <div class="chart-container">
                 <canvas id="price-chart"></canvas>
             </div>
+            <!-- Order Block Setup Zones Overlay -->
+            <div id="order-block-container" style="margin-top: 15px; padding: 15px; background: #0f1623; border-radius: 6px; border: 1px solid #2d3748;">
+                <h3 style="color: #c4b5fd; font-size: 14px; margin-bottom: 10px;">🎯 High Probability Order Block Setups</h3>
+                <div id="ob-setups-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+                    <div style="text-align: center; color: #64748b; padding: 20px;">Scanning for order blocks...</div>
+                </div>
+            </div>
         </div>
 
         <div class="grid">
@@ -438,6 +445,61 @@
             return div.innerHTML;
         }
 
+        async function loadOrderBlockSetups() {
+            try {
+                const response = await fetch(`/api/status?symbol=${currentSymbol}&timeframe=${currentTimeframe}`);
+                const data = await response.json();
+                
+                const container = document.getElementById('ob-setups-list');
+                const setups = data.global_trade?.order_block_setups || [];
+                
+                if (setups.length === 0) {
+                    container.innerHTML = '<div style="text-align: center; color: #64748b; padding: 20px; grid-column: 1/-1;">No active order block setups detected. Scanning all timeframes...</div>';
+                    return;
+                }
+                
+                let html = '';
+                setups.forEach(setup => {
+                    const directionColor = setup.direction === 'BUY' ? '#22c55e' : '#ef4444';
+                    const directionBg = setup.direction === 'BUY' 
+                        ? 'linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(34, 197, 94, 0.05) 100%)'
+                        : 'linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(239, 68, 68, 0.05) 100%)';
+                    
+                    html += `<div style="background: ${directionBg}; border: 1px solid ${directionColor}; border-radius: 6px; padding: 12px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                            <span style="color: ${directionColor}; font-weight: bold; font-size: 13px;">${setup.direction} ${setup.type}</span>
+                            <span style="background: ${directionColor}; color: #000; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: bold;">${setup.confidence}%</span>
+                        </div>
+                        <div style="font-size: 11px; color: #94a3b8; margin-bottom: 6px;">TF: ${setup.timeframe}</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; margin-bottom: 8px;">
+                            <div>
+                                <div style="font-size: 10px; color: #64748b;">Entry</div>
+                                <div style="font-size: 12px; color: #e0e6ed; font-family: monospace;">${setup.entry}</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 10px; color: #64748b;">Stop Loss</div>
+                                <div style="font-size: 12px; color: #ef4444; font-family: monospace;">${setup.sl}</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 10px; color: #64748b;">Take Profit</div>
+                                <div style="font-size: 12px; color: #22c55e; font-family: monospace;">${setup.tp}</div>
+                            </div>
+                        </div>
+                        <div style="font-size: 10px; color: #64748b; border-top: 1px solid #2d3748; padding-top: 6px;">
+                            <div style="font-size: 10px; color: #94a3b8; margin-bottom: 3px;">Order Block Zone:</div>
+                            <div style="font-family: monospace; color: #c4b5fd;">${setup.ob_start} - ${setup.ob_end}</div>
+                        </div>
+                        <div style="margin-top: 8px; font-size: 10px; color: #94a3b8; font-style: italic; border-top: 1px solid #2d3748; padding-top: 6px;">
+                            ${setup.rationale}
+                        </div>
+                    </div>`;
+                });
+                container.innerHTML = html;
+            } catch (error) {
+                console.error('Error loading order block setups:', error);
+            }
+        }
+
         async function refreshAll() {
             try {
                 const response = await fetch(`/api/status?symbol=${currentSymbol}&timeframe=${currentTimeframe}`);
@@ -449,6 +511,7 @@
                 await loadPositions();
                 await loadHistory();
                 await loadLogs();
+                await loadOrderBlockSetups();
             } catch (error) {
                 console.error('Error refreshing:', error);
             }

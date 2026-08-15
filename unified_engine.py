@@ -27,6 +27,9 @@ import numpy as np
 import config
 from config import get_symbol_profile, resolve_symbol
 
+# Import Order Block Engine
+from order_block_engine import OrderBlockEngine, TradeSetup, SetupType
+
 # Configure Logging
 logging.basicConfig(
     level=logging.INFO,
@@ -131,6 +134,11 @@ class UnifiedGlobalEngine:
         self._tf_lock = threading.Lock()
         self._tf_predictions: Dict[str, Optional[dict]] = {}
         self._tf_engines: Dict[str, Any] = {}
+        
+        # Initialize Order Block Engine for high-probability setup detection
+        self.ob_engine = OrderBlockEngine(min_imbalance_ratio=2.0, min_volume_ratio=1.5)
+        self._active_setups: List[TradeSetup] = []
+        self._setup_lock = threading.Lock()
 
         EngineClass = _get_engine_class()
         logger.info(f"Initializing timeframe engines for {self.profile['display_name']}...")
@@ -179,6 +187,23 @@ class UnifiedGlobalEngine:
                         "prob_short": round(pred.get("prob_short", 0.0), 1),
                     }
 
+        # Include active order block setups in state
+        setups_data = []
+        with self._setup_lock:
+            for setup in self._active_setups[:5]:  # Limit to top 5 setups
+                setups_data.append({
+                    "type": setup.setup_type.value,
+                    "direction": "BUY" if setup.direction == 1 else "SELL",
+                    "entry": round(setup.entry_price, self.profile["price_decimals"]),
+                    "sl": round(setup.stop_loss, self.profile["price_decimals"]),
+                    "tp": round(setup.take_profit, self.profile["price_decimals"]),
+                    "confidence": round(setup.confidence * 100, 1),
+                    "rationale": setup.rationale,
+                    "timeframe": setup.timeframe,
+                    "ob_start": round(setup.order_block_start, self.profile["price_decimals"]),
+                    "ob_end": round(setup.order_block_end, self.profile["price_decimals"]),
+                })
+
         state_data = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "symbol": self.profile["mt5_ticker"],
@@ -195,6 +220,8 @@ class UnifiedGlobalEngine:
             "price_format": self.profile["price_format"],
             "timeframe_signals": tf_summary,
             "active_timeframes": list(self._tf_engines.keys()),
+            "order_block_setups": setups_data,
+            "setup_count": len(setups_data),
         }
 
         # Atomic write for global_trade_state.json
@@ -221,12 +248,32 @@ class UnifiedGlobalEngine:
             logger.debug(f"Legacy state write notice: {e}")
 
     def _scan_all_timeframes(self) -> None:
-        """Concurrently fetch predictions across all active timeframe engines."""
+        """Concurrently fetch predictions across all active timeframe engines and detect order blocks."""
         def scan_tf(tf: str, engine: Any) -> None:
             try:
                 pred = engine.get_live_prediction(timeframe=tf, target_bar_idx=-2)
                 with self._tf_lock:
                     self._tf_predictions[tf] = pred
+                    
+                # Also scan for order block setups on this timeframe
+                if engine.latest_live_df is not None and len(engine.latest_live_df) > 50:
+                    try:
+                        ob_setups = self.ob_engine.detect_order_blocks(
+                            engine.latest_live_df.copy(), 
+                            self.symbol_key, 
+                            tf
+                        )
+                        with self._setup_lock:
+                            # Add new setups to active list
+                            for setup in ob_setups:
+                                # Avoid duplicates
+                                if not any(s.timestamp == setup.timestamp and s.timeframe == setup.timeframe 
+                                          for s in self._active_setups):
+                                    self._active_setups.append(setup)
+                                    logger.info(f"Order Block detected on {tf}: {setup.setup_type.value} @ {setup.entry_price}")
+                    except Exception as e:
+                        logger.debug(f"Order block detection error on {tf}: {e}")
+                        
             except Exception as e:
                 logger.error(f"Error scanning timeframe {tf}: {e}")
                 with self._tf_lock:
@@ -238,27 +285,262 @@ class UnifiedGlobalEngine:
         with concurrent.futures.ThreadPoolExecutor(max_workers=len(self._tf_engines)) as executor:
             futures = [executor.submit(scan_tf, tf, engine) for tf, engine in self._tf_engines.items()]
             concurrent.futures.wait(futures)
+        
+        # Clean up old/stale setups (older than 4 hours or already filled/cancelled)
+        self._cleanup_stale_setups()
+    
+    def _cleanup_stale_setups(self) -> None:
+        """Remove stale or expired order block setups."""
+        from datetime import timedelta
+        
+        current_time = pd.Timestamp.now()
+        with self._setup_lock:
+            fresh_setups = []
+            for setup in self._active_setups:
+                # Keep setups that are:
+                # 1. Less than 4 hours old
+                # 2. Still in PENDING status
+                # 3. Price hasn't violated the order block significantly
+                age = current_time - setup.timestamp
+                if age < timedelta(hours=4) and setup.status == "PENDING":
+                    fresh_setups.append(setup)
+            
+            # Keep only the top 10 highest confidence setups
+            fresh_setups.sort(key=lambda x: x.confidence, reverse=True)
+            self._active_setups = fresh_setups[:10]
+
+    def _calculate_volatility_confirmation(self, predictions: Dict[str, dict]) -> Tuple[bool, float]:
+        """
+        Volatility Confirmation: Require expanding ATR across multiple timeframes.
+        Returns (confirmed, avg_atr_ratio) where confirmed=True if ATR is expanding on majority of TFs.
+        """
+        atr_ratios = []
+        confirming_tfs = 0
+        total_tfs = 0
+        
+        for tf, pred in predictions.items():
+            if pred is None:
+                continue
+            
+            current_atr = pred.get("atr", 0.0)
+            prev_atr = pred.get("prev_atr", current_atr)
+            
+            if current_atr > 0 and prev_atr > 0:
+                ratio = current_atr / prev_atr
+                atr_ratios.append(ratio)
+                total_tfs += 1
+                
+                # ATR expanding if ratio > 1.05 (5% increase)
+                if ratio > 1.05:
+                    confirming_tfs += 1
+        
+        if total_tfs == 0:
+            return False, 1.0
+        
+        avg_ratio = np.mean(atr_ratios) if atr_ratios else 1.0
+        # Confirmed if majority of timeframes show expanding volatility
+        confirmed = confirming_tfs >= (total_tfs / 2)
+        
+        return confirmed, avg_ratio
+
+    def _check_momentum_alignment(self, predictions: Dict[str, dict], direction: float) -> Tuple[bool, float]:
+        """
+        Momentum Alignment: Check if RSI/MACD align across timeframes.
+        Returns (aligned, alignment_score) where aligned=True if momentum agrees on majority of TFs.
+        """
+        rsi_aligned = 0
+        macd_aligned = 0
+        total_tfs = 0
+        
+        for tf, pred in predictions.items():
+            if pred is None:
+                continue
+            
+            total_tfs += 1
+            rsi = pred.get("rsi", 50.0)
+            macd_signal = pred.get("macd_signal", 0)  # 1=bullish, -1=bearish, 0=neutral
+            
+            # RSI alignment: For LONG, RSI should be > 50 and rising; for SHORT, < 50 and falling
+            if direction == 1.0:  # Long
+                if rsi > 50:
+                    rsi_aligned += 1
+                if macd_signal == 1:
+                    macd_aligned += 1
+            elif direction == -1.0:  # Short
+                if rsi < 50:
+                    rsi_aligned += 1
+                if macd_signal == -1:
+                    macd_aligned += 1
+        
+        if total_tfs == 0:
+            return False, 0.0
+        
+        rsi_score = rsi_aligned / total_tfs
+        macd_score = macd_aligned / total_tfs if total_tfs > 0 else 0.0
+        alignment_score = (rsi_score + macd_score) / 2
+        
+        # Aligned if > 60% of timeframes agree
+        aligned = alignment_score > 0.6
+        
+        return aligned, alignment_score
+
+    def _detect_volume_surge(self, predictions: Dict[str, dict]) -> Tuple[bool, float]:
+        """
+        Volume Surge Detection: Add volume spike confirmation.
+        Returns (surge_detected, max_volume_ratio) where surge_detected=True if volume spikes on key TFs.
+        """
+        volume_ratios = []
+        surge_tfs = 0
+        key_tf_count = 0  # Count of key timeframes (15m, 1h, 4h)
+        
+        for tf, pred in predictions.items():
+            if pred is None:
+                continue
+            
+            current_vol = pred.get("volume", 0.0)
+            avg_vol = pred.get("avg_volume", current_vol)
+            
+            if current_vol > 0 and avg_vol > 0:
+                ratio = current_vol / avg_vol
+                volume_ratios.append(ratio)
+                
+                # Volume surge if ratio > 1.5 (50% above average)
+                if ratio > 1.5:
+                    surge_tfs += 1
+                    if tf in ("15m", "1h", "4h"):
+                        key_tf_count += 1
+        
+        if not volume_ratios:
+            return False, 1.0
+        
+        max_ratio = max(volume_ratios)
+        avg_ratio = np.mean(volume_ratios)
+        
+        # Surge confirmed if: at least one TF has surge OR average volume is elevated
+        surge_detected = (surge_tfs >= 1) or (avg_ratio > 1.2)
+        
+        # Extra confirmation if key timeframes show surge
+        if key_tf_count >= 1:
+            surge_detected = True
+        
+        return surge_detected, max_ratio
+
+    def _validate_breakout(self, predictions: Dict[str, dict], direction: float) -> Tuple[bool, int]:
+        """
+        Breakout Validation: Detect simultaneous breakout patterns across timeframes.
+        Returns (breakout_confirmed, breakout_count) where breakout_confirmed=True if breakouts align.
+        """
+        breakout_tfs = 0
+        total_tfs = 0
+        
+        for tf, pred in predictions.items():
+            if pred is None:
+                continue
+            
+            total_tfs += 1
+            is_breakout = pred.get("is_breakout", False)
+            breakout_direction = pred.get("breakout_direction", 0)  # 1=up, -1=down
+            
+            if is_breakout and breakout_direction == direction:
+                breakout_tfs += 1
+        
+        # Breakout confirmed if at least 2 timeframes show aligned breakout
+        breakout_confirmed = breakout_tfs >= 2
+        
+        return breakout_confirmed, breakout_tfs
+
+    def _get_dynamic_weights(self, predictions: Dict[str, dict], current_hour: int) -> Dict[str, float]:
+        """
+        Dynamic Weight Adjustment: Increase weights during high-volatility sessions.
+        Adjusts timeframe weights based on:
+        - Session overlap (London/NY overlap = highest volatility)
+        - Current volatility regime (high vol = higher weights on faster TFs)
+        """
+        base_weights = TIMEFRAME_WEIGHTS.copy()
+        
+        # Session multipliers (Forex market hours in UTC)
+        session_multiplier = 1.0
+        
+        # London session: 07:00-16:00 UTC
+        london_active = 7 <= current_hour <= 16
+        
+        # NY session: 12:00-21:00 UTC
+        ny_active = 12 <= current_hour <= 21
+        
+        # London/NY overlap: 12:00-16:00 UTC (highest volatility)
+        overlap_active = london_active and ny_active
+        
+        if overlap_active:
+            session_multiplier = 1.5  # 50% weight increase during overlap
+        elif london_active or ny_active:
+            session_multiplier = 1.2  # 20% increase during single session
+        else:
+            session_multiplier = 0.8  # Reduce weights during Asian session/low vol
+        
+        # Calculate average volatility across timeframes
+        avg_atr_ratio = 1.0
+        atr_count = 0
+        for tf, pred in predictions.items():
+            if pred and pred.get("atr", 0) > 0 and pred.get("prev_atr", 0) > 0:
+                ratio = pred["atr"] / pred["prev_atr"]
+                avg_atr_ratio = (avg_atr_ratio * atr_count + ratio) / (atr_count + 1)
+                atr_count += 1
+        
+        # Adjust weights based on volatility regime
+        vol_adjustment = min(avg_atr_ratio, 1.5)  # Cap at 1.5x
+        
+        # Apply adjustments to weights
+        adjusted_weights = {}
+        for tf, weight in base_weights.items():
+            # Faster timeframes get more weight during high volatility
+            tf_speed_factor = 1.0
+            if tf in ("1m", "5m"):
+                tf_speed_factor = vol_adjustment  # Increase during high vol
+            elif tf in ("1h", "4h", "1d"):
+                tf_speed_factor = 1.0 / vol_adjustment  # Slightly decrease relative weight
+            
+            adjusted_weights[tf] = weight * session_multiplier * tf_speed_factor
+        
+        # Normalize weights to sum to 1.0
+        total = sum(adjusted_weights.values())
+        if total > 0:
+            adjusted_weights = {tf: w/total for tf, w in adjusted_weights.items()}
+        
+        return adjusted_weights
 
     def _fuse_signals(self) -> None:
         """
         Fuse multi-timeframe predictions into a single trade signal via weighted voting.
+        Enhanced with:
+        - Volatility Confirmation (expanding ATR)
+        - Momentum Alignment (RSI/MACD)
+        - Volume Surge Detection
+        - Breakout Validation
+        - Dynamic Weight Adjustment
         """
         weighted_score = 0.0
         total_weight = 0.0
         agreeing_long = 0
         agreeing_short = 0
         htf_bias = 0.0
+        
+        # Get current hour for session-based weight adjustment
+        current_hour = datetime.now().hour
+        
+        # Get dynamic weights based on session and volatility
+        dynamic_weights = self._get_dynamic_weights(self._tf_predictions, current_hour)
 
         with self._tf_lock:
             predictions = dict(self._tf_predictions)
 
+        # First pass: Calculate basic weighted score
         for tf, pred in predictions.items():
             if pred is None:
                 continue
 
             signal = pred.get("signal_code", 0.0)
             confidence = pred.get("confidence", 0.0) / 100.0  # Normalize to 0-1
-            weight = TIMEFRAME_WEIGHTS.get(tf, 0.1)
+            weight = dynamic_weights.get(tf, TIMEFRAME_WEIGHTS.get(tf, 0.1))
 
             weighted_score += signal * confidence * weight
             total_weight += weight
@@ -276,11 +558,51 @@ class UnifiedGlobalEngine:
 
         fused_score = weighted_score / total_weight
 
+        # Determine preliminary direction
         if fused_score > FUSION_ENTRY_THRESHOLD and agreeing_long >= MIN_AGREEING_TIMEFRAMES:
             direction = 1.0
         elif fused_score < -FUSION_ENTRY_THRESHOLD and agreeing_short >= MIN_AGREEING_TIMEFRAMES:
             direction = -1.0
         else:
+            return
+
+        # === ENHANCED VALIDATION LAYERS ===
+        
+        # 1. Volatility Confirmation
+        vol_confirmed, atr_ratio = self._calculate_volatility_confirmation(predictions)
+        if not vol_confirmed:
+            logger.debug(f"Volatility confirmation failed (ATR ratio: {atr_ratio:.2f}). Skipping trade.")
+            return
+
+        # 2. Momentum Alignment
+        momentum_aligned, mom_score = self._check_momentum_alignment(predictions, direction)
+        if not momentum_aligned:
+            logger.debug(f"Momentum alignment weak (score: {mom_score:.2f}). Skipping trade.")
+            # Don't skip entirely, but reduce confidence requirement
+            # Fused score must be stronger to compensate
+            if abs(fused_score) < FUSION_ENTRY_THRESHOLD * 1.5:
+                logger.debug(f"Fused score too weak to override momentum misalignment. Skipping.")
+                return
+
+        # 3. Volume Surge Detection
+        volume_surge, vol_ratio = self._detect_volume_surge(predictions)
+        if not volume_surge:
+            logger.debug(f"No volume surge detected (ratio: {vol_ratio:.2f}). Trade allowed but noted.")
+            # Volume is not a hard filter, just a confirmation boost
+
+        # 4. Breakout Validation
+        breakout_valid, breakout_count = self._validate_breakout(predictions, direction)
+        if breakout_valid:
+            logger.info(f"Breakout validated on {breakout_count} timeframes! Boosting confidence.")
+            # Boost the fused score for breakout scenarios
+            fused_score *= 1.2  # 20% confidence boost for validated breakouts
+
+        # Re-check threshold after breakout boost
+        if direction == 1.0 and fused_score <= FUSION_ENTRY_THRESHOLD:
+            logger.debug("Even with breakout boost, long score below threshold. Skipping.")
+            return
+        if direction == -1.0 and fused_score >= -FUSION_ENTRY_THRESHOLD:
+            logger.debug("Even with breakout boost, short score below threshold. Skipping.")
             return
 
         # Select highest-confidence trigger prediction matching fused direction
@@ -293,6 +615,17 @@ class UnifiedGlobalEngine:
                     best_pred = pred
 
         if best_pred:
+            # Add enhancement metrics to prediction for logging/debugging
+            best_pred["volatility_confirmed"] = vol_confirmed
+            best_pred["atr_ratio"] = atr_ratio
+            best_pred["momentum_aligned"] = momentum_aligned
+            best_pred["momentum_score"] = mom_score
+            best_pred["volume_surge"] = volume_surge
+            best_pred["volume_ratio"] = vol_ratio
+            best_pred["breakout_validated"] = breakout_valid
+            best_pred["breakout_count"] = breakout_count
+            best_pred["session_multiplier"] = dynamic_weights
+            
             self._lock_trade(best_pred, htf_bias)
 
     def _lock_trade(self, trigger_pred: dict, htf_bias: float) -> None:
