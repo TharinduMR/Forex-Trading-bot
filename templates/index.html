@@ -17,12 +17,20 @@
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 20px; }
         .card { background: #1a2332; border-radius: 10px; padding: 20px; border: 1px solid #2d3748; }
         .card h2 { font-size: 16px; color: #94a3b8; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
-        .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #2d3748; }
+        .stat-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2d3748; align-items: center; }
         .stat-row:last-child { border-bottom: none; }
-        .stat-label { color: #94a3b8; }
-        .stat-value { font-weight: bold; color: #e0e6ed; }
-        .stat-value.positive { color: #22c55e; }
-        .stat-value.negative { color: #ef4444; }
+        .stat-label { color: #94a3b8; font-size: 13px; }
+        .stat-value { font-weight: 600; color: #e0e6ed; font-size: 14px; font-family: 'Courier New', monospace; }
+        .stat-value.positive { color: #22c55e; text-shadow: 0 0 8px rgba(34, 197, 94, 0.3); }
+        .stat-value.negative { color: #ef4444; text-shadow: 0 0 8px rgba(239, 68, 68, 0.3); }
+        .stat-value.highlight { color: #4fd1c5; font-size: 16px; }
+        .account-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+        .account-metric { background: #0f1623; padding: 12px; border-radius: 6px; border: 1px solid #2d3748; }
+        .account-metric .label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+        .account-metric .value { font-size: 15px; font-weight: 700; color: #e0e6ed; font-family: 'Courier New', monospace; }
+        .account-metric .value.pos { color: #22c55e; }
+        .account-metric .value.neg { color: #ef4444; }
+        .account-metric.primary { border-color: #4fd1c5; background: linear-gradient(135deg, #0f1623 0%, #134e4a 20%); }
         .signal-box { text-align: center; padding: 30px; border-radius: 10px; margin-top: 10px; }
         .signal-waiting { background: #374151; color: #9ca3af; }
         .signal-long { background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); color: #fff; }
@@ -82,14 +90,40 @@
         <div class="grid">
             <div class="card">
                 <h2>📊 Account Status</h2>
-                <div class="stat-row"><span class="stat-label">Login</span><span class="stat-value" id="account-login">--</span></div>
-                <div class="stat-row"><span class="stat-label">Balance</span><span class="stat-value" id="account-balance">--</span></div>
-                <div class="stat-row"><span class="stat-label">Equity</span><span class="stat-value" id="account-equity">--</span></div>
-                <div class="stat-row"><span class="stat-label">Free Margin</span><span class="stat-value" id="account-free-margin">--</span></div>
-                <div class="stat-row"><span class="stat-label">Margin Level</span><span class="stat-value" id="account-margin-level">--</span></div>
-                <div class="stat-row"><span class="stat-label">Floating P/L</span><span class="stat-value" id="account-profit">--</span></div>
-                <div class="stat-row"><span class="stat-label">Realized P/L</span><span class="stat-value" id="account-realized">--</span></div>
-                <div class="stat-row"><span class="stat-label">Total P/L</span><span class="stat-value" id="account-total-pnl">--</span></div>
+                <div class="account-grid">
+                    <div class="account-metric primary">
+                        <div class="label">Login</div>
+                        <div class="value highlight" id="account-login">--</div>
+                    </div>
+                    <div class="account-metric primary">
+                        <div class="label">Balance</div>
+                        <div class="value" id="account-balance">$0.00</div>
+                    </div>
+                    <div class="account-metric">
+                        <div class="label">Equity</div>
+                        <div class="value" id="account-equity">$0.00</div>
+                    </div>
+                    <div class="account-metric">
+                        <div class="label">Free Margin</div>
+                        <div class="value" id="account-free-margin">$0.00</div>
+                    </div>
+                    <div class="account-metric">
+                        <div class="label">Margin Level</div>
+                        <div class="value" id="account-margin-level">0%</div>
+                    </div>
+                    <div class="account-metric">
+                        <div class="label">Floating P/L</div>
+                        <div class="value" id="account-profit">$0.00</div>
+                    </div>
+                    <div class="account-metric">
+                        <div class="label">Realized P/L</div>
+                        <div class="value" id="account-realized">$0.00</div>
+                    </div>
+                    <div class="account-metric">
+                        <div class="label">Total P/L</div>
+                        <div class="value" id="account-total-pnl">$0.00</div>
+                    </div>
+                </div>
             </div>
 
             <div class="card">
@@ -186,15 +220,23 @@
             
             const profitEl = document.getElementById('account-profit');
             profitEl.textContent = '$' + formatNumber(acc.profit);
-            profitEl.className = 'stat-value ' + (acc.profit >= 0 ? 'positive' : 'negative');
+            profitEl.className = 'value ' + (acc.profit >= 0 ? 'pos' : 'neg');
             
             const realizedEl = document.getElementById('account-realized');
             realizedEl.textContent = '$' + formatNumber(acc.realized_pnl);
-            realizedEl.className = 'stat-value ' + (acc.realized_pnl >= 0 ? 'positive' : 'negative');
+            realizedEl.className = 'value ' + (acc.realized_pnl >= 0 ? 'pos' : 'neg');
             
             const totalEl = document.getElementById('account-total-pnl');
             totalEl.textContent = '$' + formatNumber(acc.total_pnl);
-            totalEl.className = 'stat-value ' + (acc.total_pnl >= 0 ? 'positive' : 'negative');
+            totalEl.className = 'value ' + (acc.total_pnl >= 0 ? 'pos' : 'neg');
+            
+            // Update dynamic classes for other metrics
+            const equityEl = document.getElementById('account-equity');
+            if (acc.equity >= acc.balance) {
+                equityEl.className = 'value pos';
+            } else {
+                equityEl.className = 'value neg';
+            }
             
             document.getElementById('account-server-time').textContent = acc.server_time || '--';
             
